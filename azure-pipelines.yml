@@ -1,5 +1,4 @@
-#test
 pool:
   vmImage: 'Ubuntu-16.04'
 steps:
-  bash: echo "Hello world"
+- bash: echo "Hello world"
