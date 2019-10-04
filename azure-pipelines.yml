@@ -1,4 +1,4 @@
 pool:
   vmImage: 'Ubuntu-16.04'
-stages:
-- stage: test
+steps:
+- bash: echo "Hello world"
